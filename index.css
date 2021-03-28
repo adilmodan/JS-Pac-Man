@@ -1,0 +1,116 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Typography */
+
+body {
+    font-family: 'DotGothic16', sans-serif;
+    color:  #acd1d1;
+    background-color: #324141;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 4rem;
+    letter-spacing: 0.1em;
+    margin-bottom: 0;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    text-align: center;
+}
+
+
+strong {
+    letter-spacing: 0.1em;
+}
+
+a {
+    color: rgb(228, 82, 106);
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    text-decoration: underline;
+}
+
+.score {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+#score {
+  margin: 0 auto;
+  font-weight: 900;
+}
+
+
+.pacman_game {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 560px;
+    height: 560px;
+    border: none;
+    background: black;
+}
+  
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.pac-dot {
+    background-color: green;   
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+
+.wall {
+    background-color: blue;
+}
+
+.power-pellet {
+    background-color: green;
+    border-radius: 10px;
+}
+
+.blinky {
+    background-color: red;
+}
+
+.pinky {
+    background-color: pink;
+}
+
+.inky {
+    background-color: cyan;
+}
+
+.clyde {
+    background-color: orange;     
+}
+
+.pac-man {
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+.scared-ghost {
+    background-color: aquamarine;
+}
